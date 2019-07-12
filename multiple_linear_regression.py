@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
-df = pd.read_csv('multiple_linear_regression_veriler.csv')
+df = pd.read_csv('veriler.csv')
 df = df.rename(index=str, columns={"ulke": "country", "boy": "height",
                                    "kilo": "weight", "yas": "age", "cinsiyet": "gender"})
 
