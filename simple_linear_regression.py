@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv('simple_linear_regression_sales.csv')
+df = pd.read_csv('sales.csv')
 months = df[['Aylar']]
 sales = df[['Satislar']]
 
